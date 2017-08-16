@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<div>
+  <div class="head">
+  <h2>{{name}}</h2>
+  <img src="{{avatar}}">
+  <p>{{city}} {{country}} | {{job}} {{company}}</p>
+  <p>{{email}} | {{phone}}</p>
+  </div>
+  <div class="info">
+  <div class="info-bold">
+  <p><span>Education</span></p>
+  <p><span>Skills</span></p>
+  </div>
+  <div class="user-info">
+  <p>{{education}}</p>
+  <ul>
+  <li>{{skills}}</li>
+  </ul>
+  </div>
+</div>
+
+  <script type="text/javascript" src="../app.js"></script>
+  <script type="text/javascript" src="../models/data.js"></script>
+</body>
+</html>
